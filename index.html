@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghibli Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <main>
+      <div class="carousel" id="carousel">
+        <div class="slides" id="slides">
+          <!-- Slide 1 -->
+          <div class="slide card">
+            <figure>
+              <img src="assets/spiritedaway.jpg" alt="Movie Poster" class="poster">
+              <video class="trailer" loop muted controls>
+                <source src="assets/spirited-away-trailer.mp4" type="video/mp4">
+              </video>
+            </figure>
+
+            <div class="caption">
+              <h2>Spirited Away</h2>
+              <p>A magical journey into the spirit world</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="slide card">
+            <figure>
+              <img src="assets/arrietty.webp" alt="Movie Poster" class="poster">
+              <video class="trailer" loop muted controls>
+                <source src="assets/arrietty-trailer.mp4" type="video/mp4">
+              </video>
+            </figure>
+
+            <div class="caption">
+              <h2>Arrietty</h2>
+              <p>A "little" girl's BIG life</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="slide card">
+            <figure>
+              <img src="assets/kiki.webp" alt="Movie Poster" class="poster">
+              <video class="trailer" loop muted controls>
+                <source src="assets/kiki-trailer.mp4" type="video/mp4">
+              </video>
+            </figure>
+
+            <div class="caption">
+              <h2>Kiki's Delivery Service</h2>
+              <p>An enchanting witch grows up</p>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="slide card">
+            <figure>
+              <img src="assets/totoro.jpg" alt="Movie Poster" class="poster">
+              <video class="trailer" loop muted controls>
+                <source src="assets/totoro-trailer.mp4" type="video/mp4">
+              </video>
+            </figure>
+
+            <div class="caption">
+              <h2>My Neighbor Totoro</h2>
+              <p>Imagination. Joy. Resilience</p>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="slide card">
+            <figure>
+              <img src="assets/howlscastle.jpg" alt="Movie Poster" class="poster">
+              <video class="trailer" loop muted controls>
+                <source src="assets/howl-trailer.mp4" type="video/mp4">
+              </video>
+            </figure>
+
+            <div class="caption">
+              <h2>Howl's Moving Castle</h2>
+              <p>Family is what you make of it</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Navigation Buttons -->
+        <button id="prev">&#10094</button>
+        <button id="next">&#10095</button>
+      </div>
+      
+      <nav id="mainNav">
+        <img src="assets/menu-icon.png" id="menuToggle" class="menu-icon" alt="Menu Icon">
+        <ul id="navLinks">
+          <li><a href="#visit">Visit</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tickets">Tickets</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </main>
+  </section>
+
+
+
+    <div class="main-container">
+        <div class="container">
+           
+            <div class="search-container" id="search-container">
+                <input type="text" class="search-input" placeholder="Search products...">
+            </div>
+
+            
+            <div class="products-grid" id="productsGrid"></div>
+
+            
+            <button class="checkout-button" id="checkoutButton">Checkout</button>
+
+            
+            <div class="checkout-container" id="checkoutContainer">
+                <h1>Your Cart</h1>
+                <div class="cart-items" id="cartItems"></div>
+                <div class="total-price" id="totalPrice"></div>
+                <button id="proceedToPayment">Proceed to buy</button>
+            </div>
+
+           
+            <div class="purchase-form" id="purchaseForm">
+                <h2>Order Information</h2>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="paymentMethod">Payment Method</label>
+                        <select id="paymentMethod" required>
+                            <option value="">--Select--</option>
+                            <option value="creditCard">Credit Card</option>
+                            <option value="debitCard">Debit Card</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardNumber">Credit Card Number</label>
+                        <input type="text" id="cardNumber" required pattern="[0-9]{16}">
+                    </div>
+                    <div class="form-group">
+                        <label for="expiryDate">Expiry Date</label>
+                        <input type="text" id="expiryDate" required placeholder="MM/YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" required pattern="[0-9]{3}">
+                    </div>
+                    <button type="submit" class="submit-button">Confirm Order</button>
+                </form>
+            </div>
+
+           
+            <div class="confirmation-container" id="confirmationContainer">
+                <h1>Order Confirmed!</h1>
+                <div class="confirmation-content">
+                    <p class="thank-you">Thank you, <span class="customer-name" id="customerName"></span></p>
+                    <p>
+                        Your order of <span class="itemCount" id="itemCount"></span> items totaling <span class="allprice" id="allprice"></span> will be delivered to:<br>
+                        <span class="deliveryAddress" id="deliveryAddress"></span>
+                    </p>
+                    <p class="order-summary" id="orderSummary"></p>
+                    <p class="delivery-time">Expect your package in 3-4 working days.</p>
+                    <button class="back-to-shop" id="backToShop">Back to Shopping</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Form Section -->
+  <section id="registration">
+    <form id="registrationform">
+        <h2>Visit us at Ghibli Park</h2>
+      <label for="date-of-visit">When would you like to visit us?</label>
+      <input type="date" id="date-of-visit">
+      <span class="error" id="visitDateError"></span><br>
+
+      <label for="no-of-visitors">How many are coming?</label>
+      <select id="no-of-visitors">
+        <option value="">---Select---</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <span class="error" id="visitorsError"></span><br>
+
+      <label for="name">Your Full Name:</label>
+      <input type="text" id="name">
+      <span class="error" id="nameError"></span><br>
+
+      <label for="email">Your Email Address:</label>
+      <input type="email" id="email">
+      <span class="error" id="emailError"></span><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob">
+      <span class="error" id="dobError"></span><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <span class="error" id="genderError"></span><br>
+
+      <label for="ticket">Ticket Type:</label>
+      <select id="ticket">
+        <option value="">---Select---</option>
+        <option value="adult">Adult</option>
+        <option value="child">Child</option>
+        <option value="senior">Senior</option>
+      </select>
+      <span class="error" id="ticketError"></span><br>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments"></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 

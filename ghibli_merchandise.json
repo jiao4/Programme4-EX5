@@ -1,0 +1,319 @@
+[
+  {
+    "id": "001",
+    "name": "Totoro Plush",
+    "price": 15,
+    "description": "Totoro Plush - A charming Ghibli-themed collectible.",
+    "image": "assets/001.jpg"
+  },
+  {
+    "id": "002",
+    "name": "Catbus Pillow",
+    "price": 20,
+    "description": "Catbus Pillow - A charming Ghibli-themed collectible.",
+    "image": "assets/002.jpg"
+  },
+  {
+    "id": "003",
+    "name": "No-Face Lamp",
+    "price": 25,
+    "description": "No-Face Lamp - A charming Ghibli-themed collectible.",
+    "image": "assets/003.jpg"
+  },
+  {
+    "id": "004",
+    "name": "Howl's Ring",
+    "price": 30,
+    "description": "Howl's Ring - A charming Ghibli-themed collectible.",
+    "image": "assets/004.jpg"
+  },
+  {
+    "id": "005",
+    "name": "Calcifer Mug",
+    "price": 35,
+    "description": "Calcifer Mug - A charming Ghibli-themed collectible.",
+    "image": "assets/005.jpg"
+  },
+  {
+    "id": "006",
+    "name": "Soot Sprite Stickers",
+    "price": 40,
+    "description": "Soot Sprite Stickers - A charming Ghibli-themed collectible.",
+    "image": "assets/006.jpg"
+  },
+  {
+    "id": "007",
+    "name": "Ghibli Notebook",
+    "price": 45,
+    "description": "Ghibli Notebook - A charming Ghibli-themed collectible.",
+    "image": "assets/007.jpg"
+  },
+  {
+    "id": "008",
+    "name": "Jiji Keychain",
+    "price": 50,
+    "description": "Jiji Keychain - A charming Ghibli-themed collectible.",
+    "image": "assets/008.jpg"
+  },
+  {
+    "id": "009",
+    "name": "Forest Spirit Poster",
+    "price": 55,
+    "description": "Forest Spirit Poster - A charming Ghibli-themed collectible.",
+    "image": "assets/009.jpg"
+  },
+  {
+    "id": "010",
+    "name": "Kiki's Delivery Bag",
+    "price": 60,
+    "description": "Kiki's Delivery Bag - A charming Ghibli-themed collectible.",
+    "image": "assets/010.jpg"
+  },
+  {
+    "id": "011",
+    "name": "Ponyo Water Bottle",
+    "price": 65,
+    "description": "Ponyo Water Bottle - A charming Ghibli-themed collectible.",
+    "image": "assets/011.jpg"
+  },
+  {
+    "id": "012",
+    "name": "Mononoke Mask",
+    "price": 70,
+    "description": "Mononoke Mask - A charming Ghibli-themed collectible.",
+    "image": "assets/012.jpg"
+  },
+  {
+    "id": "013",
+    "name": "Spirited Away Puzzle",
+    "price": 75,
+    "description": "Spirited Away Puzzle - A charming Ghibli-themed collectible.",
+    "image": "assets/013.jpg"
+  },
+  {
+    "id": "014",
+    "name": "Laputa Robot Figure",
+    "price": 80,
+    "description": "Laputa Robot Figure - A charming Ghibli-themed collectible.",
+    "image": "assets/014.jpg"
+  },
+  {
+    "id": "015",
+    "name": "Nausicaä Brooch",
+    "price": 85,
+    "description": "Nausicaä Brooch - A charming Ghibli-themed collectible.",
+    "image": "assets/015.jpg"
+  },
+  {
+    "id": "016",
+    "name": "Ghibli Wall Calendar",
+    "price": 90,
+    "description": "Ghibli Wall Calendar - A charming Ghibli-themed collectible.",
+    "image": "assets/016.jpg"
+  },
+  {
+    "id": "017",
+    "name": "Totoro Umbrella",
+    "price": 95,
+    "description": "Totoro Umbrella - A charming Ghibli-themed collectible.",
+    "image": "assets/017.jpg"
+  },
+  {
+    "id": "018",
+    "name": "Haku Dragon Plush",
+    "price": 100,
+    "description": "Haku Dragon Plush - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "019",
+    "name": "Ghibli Art Book",
+    "price": 105,
+    "description": "Ghibli Art Book - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "020",
+    "name": "Kodama Desk Plant",
+    "price": 10,
+    "description": "Kodama Desk Plant - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "021",
+    "name": "Turnip Head Pen Stand",
+    "price": 15,
+    "description": "Turnip Head Pen Stand - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "022",
+    "name": "Catbus Backpack",
+    "price": 20,
+    "description": "Catbus Backpack - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "023",
+    "name": "Totoro Phone Case",
+    "price": 25,
+    "description": "Totoro Phone Case - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "024",
+    "name": "Kiki Apron",
+    "price": 30,
+    "description": "Kiki Apron - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "025",
+    "name": "Yubaba Magnet",
+    "price": 35,
+    "description": "Yubaba Magnet - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "026",
+    "name": "Howl's Castle Model",
+    "price": 40,
+    "description": "Howl's Castle Model - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "027",
+    "name": "Studio Ghibli Enamel Pin",
+    "price": 45,
+    "description": "Studio Ghibli Enamel Pin - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "028",
+    "name": "Bo Mousepad",
+    "price": 50,
+    "description": "Bo Mousepad - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "029",
+    "name": "Ghibli Socks Set",
+    "price": 55,
+    "description": "Ghibli Socks Set - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "030",
+    "name": "Totoro Bento Box",
+    "price": 60,
+    "description": "Totoro Bento Box - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "031",
+    "name": "Ghibli Wall Clock",
+    "price": 65,
+    "description": "Ghibli Wall Clock - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "032",
+    "name": "Ponyo Night Light",
+    "price": 70,
+    "description": "Ponyo Night Light - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "033",
+    "name": "No-Face Coin Bank",
+    "price": 75,
+    "description": "No-Face Coin Bank - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "034",
+    "name": "Calcifer Oven Mitts",
+    "price": 80,
+    "description": "Calcifer Oven Mitts - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "035",
+    "name": "Soot Sprite Earrings",
+    "price": 85,
+    "description": "Soot Sprite Earrings - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "036",
+    "name": "Totoro Mug Warmer",
+    "price": 90,
+    "description": "Totoro Mug Warmer - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "037",
+    "name": "Kiki Hair Ribbon",
+    "price": 95,
+    "description": "Kiki Hair Ribbon - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "038",
+    "name": "Spirited Away Tote",
+    "price": 100,
+    "description": "Spirited Away Tote - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "039",
+    "name": "Mononoke Forest Journal",
+    "price": 105,
+    "description": "Mononoke Forest Journal - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "040",
+    "name": "Kodama Night Lamp",
+    "price": 10,
+    "description": "Kodama Night Lamp - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "041",
+    "name": "Jiji Plushie",
+    "price": 15,
+    "description": "Jiji Plushie - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "042",
+    "name": "Ghibli Playing Cards",
+    "price": 20,
+    "description": "Ghibli Playing Cards - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "043",
+    "name": "Howl Cloak Replica",
+    "price": 25,
+    "description": "Howl Cloak Replica - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "044",
+    "name": "Laputa Pendant",
+    "price": 30,
+    "description": "Laputa Pendant - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "045",
+    "name": "Totoro Notebook Set",
+    "price": 35,
+    "description": "Totoro Notebook Set - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "046",
+    "name": "No-Face Sticker Pack",
+    "price": 40,
+    "description": "No-Face Sticker Pack - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "047",
+    "name": "Soot Sprite Blanket",
+    "price": 45,
+    "description": "Soot Sprite Blanket - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "048",
+    "name": "Spirited Away Phone Charm",
+    "price": 50,
+    "description": "Spirited Away Phone Charm - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "049",
+    "name": "Catbus Rug",
+    "price": 55,
+    "description": "Catbus Rug - A charming Ghibli-themed collectible."
+  },
+  {
+    "id": "050",
+    "name": "Haku Notebook",
+    "price": 60,
+    "description": "Haku Notebook - A charming Ghibli-themed collectible."
+  }
+]
